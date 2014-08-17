@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>POO con  Pokemon</title>
+		<link rel="stylesheet" type="text/css" href="estilos/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+		<link rel="stylesheet" type="text/css" href="estilos/styles.css">
+		<script type="text/javascript" src="codigos/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Info Pokemon</h1>
+		</header>
+		<nav id="botonera">
+			<h4>Elige un pokemon:</h4>
+			<ul>
+				<li><input type="button" value="Charizard" onclick="mostrarchar()"/></li>
+				<li><input type="button" value="Electabuzz" onclick="mostrarel()"/></li>
+				<li><input type="button" value="Golduck" onclick="mostrargol()"/></li>
+				<li><input type="button" value="Nidoking" onclick="mostrarnid()"/></li>
+				<li><input type="button" value="Scyther" onclick="mostrarsc()"/></li>
+			</ul>
+		</nav>
+		<figure id="infopokemon">
+			<img id="imagen" src="images/silueta_1.png" />
+			<figcaption>
+				<h3 id="nombrepoke">Nombre:</h3>
+				<ul>
+					<li id="tipopoke">Tipo:</li>
+					<li id="vidapoke">Vida:</li>
+					<li id="ataquepoke">Ataque:</li>
+					<li id="defensapoke">Defensa:</li>
+					<li id="debilidadpoke">Debilidad:</li>
+				</ul>
+			</figcaption>
+		</figure>
+		<footer>
+			<a href="https://github.com/jalucard/objetosconpokemon">Ver código fuente&nbsp;&nbsp;</a>
+			<p>Realizado por Jairo Ramirez&nbsp;&nbsp;<p>
+			<a href="https://www.facebook.com/jairo.ramirez88"><img id="icoface" src="images/face.png"/></a>
+			<a href="https://twitter.com/jalucard88"><img id="icotwit" src="images/twitter.png"></a>
+		</footer>
+		<script type="text/javascript">
+		 inicio();
+		</script>
+	</body>
+</html>
