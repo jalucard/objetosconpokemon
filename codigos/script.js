@@ -35,60 +35,60 @@ function inicio()
 function mostrarchar()
 {
 	imagen.src= "images/charizard.png";
-	nombrepoke.innerText= "Nombre: " + charizard.nombre;
-	tipopoke.innerText= "Tipo: " + charizard.tipo;
-	vidapoke.innerText= "Vida: " + charizard.vida;
-	ataquepoke.innerText= "Ataque: " + charizard.ataque;
-	defensapoke.innerText= "Defensa: " + charizard.defensa;
-	debilidadpoke.innerText= "Debilidad: " + charizard.debilidad;
+	nombrepoke.textContent= "Nombre: " + charizard.nombre;
+	tipopoke.textContent= "Tipo: " + charizard.tipo;
+	vidapoke.textContent= "Vida: " + charizard.vida;
+	ataquepoke.textContent= "Ataque: " + charizard.ataque;
+	defensapoke.textContent= "Defensa: " + charizard.defensa;
+	debilidadpoke.textContent= "Debilidad: " + charizard.debilidad;
 }
 
 //Funcion para mostrar los datos del pokemon
 function mostrarel()
 {
 	imagen.src= "images/electabuzz.png";
-	nombrepoke.innerText= "Nombre: " + electabuzz.nombre;
-	tipopoke.innerText= "Tipo: " + electabuzz.tipo;
-	vidapoke.innerText= "Vida: " + electabuzz.vida;
-	ataquepoke.innerText= "Ataque: " + electabuzz.ataque;
-	defensapoke.innerText= "Defensa: " + electabuzz.defensa;
-	debilidadpoke.innerText= "Debilidad: " + electabuzz.debilidad;
+	nombrepoke.textContent= "Nombre: " + electabuzz.nombre;
+	tipopoke.textContent= "Tipo: " + electabuzz.tipo;
+	vidapoke.textContent= "Vida: " + electabuzz.vida;
+	ataquepoke.textContent= "Ataque: " + electabuzz.ataque;
+	defensapoke.textContent= "Defensa: " + electabuzz.defensa;
+	debilidadpoke.textContent= "Debilidad: " + electabuzz.debilidad;
 }
 
 //Funcion para mostrar los datos del pokemon
 function mostrargol()
 {
 	imagen.src= "images/golduck.png";
-	nombrepoke.innerText= "Nombre: " + golduck.nombre;
-	tipopoke.innerText= "Tipo: " + golduck.tipo;
-	vidapoke.innerText= "Vida: " + golduck.vida;
-	ataquepoke.innerText= "Ataque: " + golduck.ataque;
-	defensapoke.innerText= "Defensa: " + golduck.defensa;
-	debilidadpoke.innerText= "Debilidad: " + golduck.debilidad;
+	nombrepoke.textContent= "Nombre: " + golduck.nombre;
+	tipopoke.textContent= "Tipo: " + golduck.tipo;
+	vidapoke.textContent= "Vida: " + golduck.vida;
+	ataquepoke.textContent= "Ataque: " + golduck.ataque;
+	defensapoke.textContent= "Defensa: " + golduck.defensa;
+	debilidadpoke.textContent= "Debilidad: " + golduck.debilidad;
 }
 
 //Funcion para mostrar los datos del pokemon
 function mostrarnid()
 {
 	imagen.src= "images/nidoking.png";
-	nombrepoke.innerText= "Nombre: " + nidoking.nombre;
-	tipopoke.innerText= "Tipo: " + nidoking.tipo;
-	vidapoke.innerText= "Vida: " + nidoking.vida;
-	ataquepoke.innerText= "Ataque: " + nidoking.ataque;
-	defensapoke.innerText= "Defensa: " + nidoking.defensa;
-	debilidadpoke.innerText= "Debilidad: " + nidoking.debilidad;
+	nombrepoke.textContent= "Nombre: " + nidoking.nombre;
+	tipopoke.textContent= "Tipo: " + nidoking.tipo;
+	vidapoke.textContent= "Vida: " + nidoking.vida;
+	ataquepoke.textContent= "Ataque: " + nidoking.ataque;
+	defensapoke.textContent= "Defensa: " + nidoking.defensa;
+	debilidadpoke.textContent= "Debilidad: " + nidoking.debilidad;
 }
 
 //Funcion para mostrar los datos del pokemon
 function mostrarsc()
 {
 	imagen.src= "images/scyther.png";
-	nombrepoke.innerText= "Nombre: " + scyther.nombre;
-	tipopoke.innerText= "Tipo: " + scyther.tipo;
-	vidapoke.innerText= "Vida: " + scyther.vida;
-	ataquepoke.innerText= "Ataque: " + scyther.ataque;
-	defensapoke.innerText= "Defensa: " + scyther.defensa;
-	debilidadpoke.innerText= "Debilidad: " + scyther.debilidad;
+	nombrepoke.textContent= "Nombre: " + scyther.nombre;
+	tipopoke.textContent= "Tipo: " + scyther.tipo;
+	vidapoke.textContent= "Vida: " + scyther.vida;
+	ataquepoke.textContent= "Ataque: " + scyther.ataque;
+	defensapoke.textContent= "Defensa: " + scyther.defensa;
+	debilidadpoke.textContent= "Debilidad: " + scyther.debilidad;
 }
 
 
