@@ -8,7 +8,12 @@ var electabuzz;
 var golduck;
 var nidoking;
 var scyther;
-
+//Variables para tomar los botones
+var botoncharizard;
+var botonelectabuzz;
+var botongolduck;
+var botonnidoking;
+var botonscyther;
 
 //Funcion para crear el objeto Pokemon
 function Pokemon(nombrep,tipop,vidap,ataquep,defensap,debilidadp)
@@ -29,6 +34,20 @@ function inicio()
 	golduck= new Pokemon("Golduck", "Agua", 364, 263, 255, "Electrico/planta");
 	nidoking= new Pokemon("Nidoking", "Veneno/Tierra", 366, 303, 253, "Agua/psiquico");
 	scyther= new Pokemon("Scyther", "Insecto/Volador", 344, 319,259, "Fuego/roca");
+
+	//Asigno los botones a las variables
+	botoncharizard= document.getElementById("btnchar");
+	botonelectabuzz= document.getElementById("btnelec");
+	botongolduck= document.getElementById("btngold");
+	botonnidoking= document.getElementById("btnnid");
+	botonscyther= document.getElementById("btnscy");
+
+	//Asigno los escuchadores de eventos a los botones
+	botoncharizard.addEventListener("click",mostrarchar);
+	botonelectabuzz.addEventListener("click",mostrarel);
+	botongolduck.addEventListener("click",mostrargol);
+	botonnidoking.addEventListener("click",mostrarnid);
+	botonscyther.addEventListener("click",mostrarsc);
 }
 
 //Funcion para mostrar los datos del pokemon
